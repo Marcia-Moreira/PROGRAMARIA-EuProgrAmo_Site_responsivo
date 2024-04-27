@@ -11,7 +11,8 @@
 ## Projeto - Dicionário de Mulheres Negras
 
 ## Desenvolvido por - Marcia Moreira 
-[WhatsApp](https://wa.me/5511977219430)
+
+[Me chama no WhatsApp! ](https://wa.me/5511977219430)
 
 ## Objetivo do Projeto:
 
@@ -25,31 +26,31 @@ A página, deverá retornar textos e fotos, posicionadas e ajustadas conforme o 
 - HTML 5
 - CSS 3
 - Medias Queries
+- Markdown
 - Git
 - GitHub
 - GitHub Pages
 
 ## Imágens da Página Web Desenvolvida:
 
-![Screenshot do Projeto](/img/print_01.png)
+<!-- Teste 1: -->
+<!-- | ![Screenshot do Projeto pag 1](/img/print_01.png) | ![Screenshot do Projeto pag 2](/img/print_02.png) | ![Screenshot do Projeto pag 3](/img/print_03.png) |
+|:---:|:---:|:---:| -->
 
-![Screenshot do Projeto](/img/print_02.png)
-
-![Screenshot do Projeto](/img/print_03.png)
-
-
-| ![Screenshot do Projeto pag 1](/img/print_01.png) | ![Screenshot do Projeto pag 2](/img/print_02.png) | ![Screenshot do Projeto pag 3](/img/print_03.png) |
-|:---:|:---:|:---:|
-
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="/img/print_01.png" alt="Screenshot do Projeto 1" width="45%">
-    <img src="/img/print_02.png" alt="Screenshot do Projeto 2" width="45%">
-    <img src="/img/print_03.png" alt="Screenshot do Projeto 3" width="45%">
+<!-- Teste 2: -->
+<div style="display: inline_block" align="center">
+    <img align="center" src="/img/print_01.png" alt="Screenshot do Projeto 1" width="45%">
+    &nbsp;&nbsp;&nbsp;
+    <img align="center" src="/img/print_02.png" alt="Screenshot do Projeto 2" width="45%">
+    &nbsp;&nbsp;&nbsp;
+</div>
+<div style="display: inline_block" align="center">
+    &nbsp;&nbsp;&nbsp;
+    <img align="center" src="/img/print_03.png" alt="Screenshot do Projeto 3" width="35%" align="center" >
+    &nbsp;&nbsp;&nbsp;
 </div>
 
-
-## Link do Deploy no GitHub Pages -> 
+## Link do Deploy no GitHub Pages:
 
 [Visite o meu site responsivo](https://marcia-moreira.github.io/PROGRAMARIA-EuProgrAmo_Site_responsivo)
 
