@@ -1,0 +1,206 @@
+/* PrograMaria - 04/2024  */
+/* Projeto - Dicionário de Mulheres Negras */
+/* Ferramentas - JavaScript | HTML | CSS | Responsividade de Tela */
+/* Desenvolvido por - Marcia Moreira */
+/* GitHub - https://github.com/Marcia-Moreira */
+/* Link do Projeto no GitHub -  */
+/* -------------------------------------------------------------- */
+/*? Reset do Style */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* text-decoration: none; */
+    /* list-style: none; */
+    background-color: #000;
+    color: azure;
+}
+body {
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+}
+header {
+    /* display: block; */
+    height: 100px;
+    border-bottom: 1px solid;
+    /* border-color: #000; */
+    border-color: azure;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* box-sizing: border-box; */
+}
+header h1,
+header p {
+    text-align: center;
+    margin-top: 20px;
+}
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+}
+.card {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 10px 10px 0 0;
+    /* border-color: #000; */
+    border-color: azure;
+    /* box-shadow: #777; */
+    /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); */
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.3),
+                -4px -4px 10px rgba(255, 255, 255, 0.1);
+    vertical-align: top;
+    max-height: 100%;
+}
+.card img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+.card details {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    /* border-radius: 10px; */
+}
+.card details summary {
+    font-size: 22px;
+    padding: 10px;
+    /*? teste, rever se tira fundo: */
+    /* background-color: #eae7e7; */
+    background-color: #777;
+}
+.card details summary:hover {
+    /* color: #777; */
+    color: #000;
+    cursor: pointer;
+}
+.card details p {
+    padding: 0 10px;
+    /* rever */
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.card details blockquote {
+    padding: 20px;
+    text-align: center;
+}
+.card blockquote q {
+    color: #777;
+    font-style: italic;
+}
+/* FOOTER */
+footer {
+    margin: 20px auto;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: azure;
+    margin-top: 40px;
+    padding-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer .redes-sociais {
+    text-align: center;
+}
+footer .redes-sociais img {
+    margin-right: 30px;
+    /* espaço */
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3),
+    -4px -4px 10px rgba(255, 255, 255, 0.1);
+    width: 30px;
+    background-color: azure;
+    border-radius: 10px;
+}
+footer .redes-sociais img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.footer-listas {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 15px;
+    list-style: none;
+}
+.footer-listas a {
+    text-decoration: none;
+}
+.footer-listas a:hover {
+    color: #777;
+}
+.minha-assinatura {
+    text-align: center;
+    color: #000;
+    margin: 20px auto;
+    font-size: 12px;
+}
+.minha-assinatura:hover {
+   color: #777;
+   /* text-shadow: #777; */
+   transform: scale(1.1);
+   transition: 2s;
+}
+
+/* Responsividade e Viewport: */
+/* Media Queries e Type */
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+    header {
+        margin: 20px;
+        height: 150px;
+        /* padding-bottom: 15px; */
+        /* margin-bottom: 15px; */
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .card {
+        display: block;
+        margin: 20px 15px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card img {
+        width: 100%;
+        height: 100%;
+    }
+    .card details {
+        width: 100%;
+    }
+    .card details summary {
+        font-size: 20px;
+    }
+    .card details p {
+        font-size: 15px;
+    }
+    .card details blockquote {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 418px) {
+    header {
+        font-size: 15px;
+        margin: 10px;
+    }
+    header h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
