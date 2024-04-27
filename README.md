@@ -31,7 +31,7 @@ A página, deverá retornar textos e fotos, posicionadas e ajustadas conforme o 
 - GitHub
 - GitHub Pages
 
-## Imágens da Página Web Desenvolvida:
+## Imagens da Página Web Desenvolvida:
 
 <!-- Teste 1: -->
 <!-- | ![Screenshot do Projeto pag 1](/img/print_01.png) | ![Screenshot do Projeto pag 2](/img/print_02.png) | ![Screenshot do Projeto pag 3](/img/print_03.png) |
