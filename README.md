@@ -39,20 +39,20 @@ A página, deverá retornar textos e fotos, posicionadas e ajustadas conforme o 
 
 <!-- Teste 2: -->
 <div style="display: inline_block" align="center">
-    <img align="center" src="/img/print_01.png" alt="Screenshot do Projeto 1" width="45%">
+    <img align="center" src="./img/print_01.png" alt="Screenshot do Projeto 1" width="45%">
     &nbsp;&nbsp;&nbsp;
-    <img align="center" src="/img/print_02.png" alt="Screenshot do Projeto 2" width="45%">
+    <img align="center" src="./img/print_02.png" alt="Screenshot do Projeto 2" width="45%">
     &nbsp;&nbsp;&nbsp;
 </div>
 <div style="display: inline_block" align="center">
     &nbsp;&nbsp;&nbsp;
-    <img align="center" src="/img/print_03.png" alt="Screenshot do Projeto 3" width="35%" align="center" >
+    <img align="center" src="./img/print_03.png" alt="Screenshot do Projeto 3" width="35%" align="center" >
     &nbsp;&nbsp;&nbsp;
 </div>
 
 ## Link do Deploy no GitHub Pages:
 
-[Visite o meu site responsivo](https://marcia-moreira.github.io/PROGRAMARIA-EuProgrAmo_Site_responsivo)
+[Visite o meu site responsivo!](https://marcia-moreira.github.io/PROGRAMARIA-EuProgrAmo_Site_responsivo)
 
 
 https://marcia-moreira.github.io/PROGRAMARIA-EuProgrAmo_Site_responsivo
